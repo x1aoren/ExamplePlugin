@@ -1,0 +1,15 @@
+{
+  "id": "example-hello-plugin",
+  "name": "Hello Plugin",
+  "version": "1.0.0",
+  "author": "ObsMCLauncher Team",
+  "description": "一个简单的示例插件，演示如何为 ObsMCLauncher 开发插件。",
+  "homepage": "https://github.com/mcobs/ObsMCLauncher",
+  "repository": "https://github.com/mcobs/ObsMCLauncher",
+  "minLauncherVersion": "1.0.0",
+  "dependencies": [],
+  "permissions": [
+    "notification"
+  ]
+}
+
