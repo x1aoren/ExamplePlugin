@@ -1,18 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0-windows</TargetFramework>
-    <UseWPF>true</UseWPF>
+    <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
     <OutputType>Library</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- 引用启动器程序集 -->
-    <Reference Include="ObsMCLauncher">
-      <HintPath>ObsMCLauncher.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
+    <!-- 引用ObsMCLauncher.Core项目 -->
+    <ProjectReference Include="..\ObsMCLauncher\ObsMCLauncher.Core\ObsMCLauncher.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,6 +18,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="icon.png" Condition="Exists('icon.png')">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="README.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

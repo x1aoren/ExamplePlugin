@@ -4,12 +4,12 @@
   "version": "1.0.0",
   "author": "ObsMCLauncher Team",
   "description": "一个简单的示例插件，演示如何为 ObsMCLauncher 开发插件。",
-  "homepage": "https://github.com/mcobs/ObsMCLauncher",
   "repository": "https://github.com/mcobs/ObsMCLauncher",
   "minLauncherVersion": "1.0.0",
   "dependencies": [],
-  "permissions": [
-    "notification"
-  ]
+  "tags": ["示例", "教程", "Windows", "Linux", "macOS"],
+  "category": "utility",
+  "homepage": "https://github.com/mcobs/ObsMCLauncher",
+  "license": "MIT"
 }
 
